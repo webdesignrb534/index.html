@@ -54,35 +54,7 @@
       <!-- Submit Button -->
       <button type="button" onclick="checkAnswers()">Submit</button> 
     </form>
-    <div id="result" class="result"></div>
-    <script> 
-      function checkAnswers() {
-        // Get the user's answers
-        var q1Answer = document.getElementById('q1').value;
-        var q2Answer = document.getElementById('q2').value;
-        var q3Answer = document.getElementById('q3').value; 
-        var q4Answer = document.getElementById('q4').value;
-        // Correct answers 
-        var correctAnswers = { 
-          q1: "3", 
-          q2: "13", 
-          q3: "8", 
-          q4: "24" 
-        };
-        var score = 0;
-        var feedback = ''; 
-        // Check each answer 
-        if (q1Answer === correctAnswers.q1) score++; 
-        if (q2Answer === correctAnswers.q2) score++;
-        if (q3Answer === correctAnswers.q3) score++;
-        if (q4Answer === correctAnswers.q4) score++; 
-        // Display result 
-        if (score === 4) {
-          feedback = "Excellent! You got all the answers correct!";
-        } else { 
-          feedback = "You got " + score + " out of 4 correct.";
-        } document.getElementById('result').innerHTML = feedback;
-      } 
+    <div id="result" class="result"></div> 
     </script> 
   </body> 
 </html>
