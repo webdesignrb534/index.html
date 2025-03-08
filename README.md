@@ -49,7 +49,7 @@
       <!-- Question 4: Math Symbol (*) --> 
       <div class="question">
         <label for="q4">4. What is 6 * 4?</label>
-        <input type="text" id="q4" name="q4">'
+        <input type="text" id="q4" name="q4">
       </div> 
       <!-- Submit Button -->
       <button type="button" onclick="checkAnswers()">Submit</button> 
