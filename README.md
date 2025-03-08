@@ -1,32 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Test</title> 
-    <style>
-      body { 
-        font-family: Arial, sans-serif; margin: 20px;
-      } .question {
-        margin-bottom: 20px; 
-      } 
-      label { 
-        font-size: 1.2em;
-      } input[type="text"] { 
-        margin-left: 10px;
-        padding: 5px; 
-        font-size: 1em;
-      } 
-      button { 
-        margin-top: 20px; 
-        padding: 10px 20px; 
-        font-size: 1em; 
-        cursor: pointer;
-      }
-      .result {
-        margin-top: 20px;
-        font-size: 1.2em; 
-      } </style> 
   </head>
   <body> 
     <h1>Math Test</h1>
