@@ -36,6 +36,7 @@
       <!-- Question 1: Word Problem --> <div class="question">
         <label for="q1">1. If John has 5 apples and gives 2 to his friend, how many apples does he have left?</label> 
         <input type="text" id="q1" name="q1"> 
+        Answer here: _____
       </div> <!-- Question 2: Math Symbol (+) --> 
       <div class="question">
         <label for="q2">2. What is 8 + 5?</label>
@@ -55,6 +56,5 @@
       <button type="button" onclick="checkAnswers()">Submit</button> 
     </form>
     <div id="result" class="result"></div> 
-    </script> 
-  </body> 
+</body> 
 </html>
